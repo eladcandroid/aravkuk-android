@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="right"
+    android:id="@+id/outerLayout" >
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:id="@+id/headerLayout" >    
+<ImageButton
+    android:id="@+id/paragraphs"
+    android:src="?attr/paragraphs_list"
+    android:contentDescription="@string/paragraphs"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:layout_alignParentTop="true"
+	android:layout_alignParentRight="true"    
+    android:onClick="openParagraphsList" />
+<!-- <ImageButton -->
+<!--     android:id="@+id/fullscreen_mode" -->
+<!--     android:src="?attr/fullscreen_mode" -->
+<!--     android:contentDescription="@string/fullscreen_mode" -->
+<!--     android:layout_width="wrap_content" -->
+<!--     android:layout_height="wrap_content" -->
+<!-- 	android:layout_alignParentTop="true"  -->
+<!-- 	android:layout_toLeftOf="@+id/paragraphs"    -->
+<!--     android:onClick="fullscreenMode" />     -->
+<ImageButton
+    android:id="@+id/set_bookmark"
+    android:src="?attr/set_bookmark"
+    android:contentDescription="@string/set_bookmark"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:layout_alignParentTop="true" 
+	android:layout_toLeftOf="@+id/paragraphs"   
+    android:onClick="setBookmark" />               
+<ImageButton    
+    android:id="@+id/prev_chapter"
+    android:src="?attr/prev_cat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/prev_chapter"
+	android:layout_alignParentTop="true"
+	android:layout_toRightOf="@+id/next_chapter"   
+    android:onClick="prevChapter" />     
+<ImageButton
+    android:id="@+id/next_chapter"
+    android:src="?attr/next_cat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/next_chapter"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"    
+    android:onClick="nextChapter" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/centerLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/progressSpinner"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible" />
+</RelativeLayout>
+    
+</LinearLayout>

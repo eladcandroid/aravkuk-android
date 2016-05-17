@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="AppTheme">
+    <attr name="menu_search" format="reference" />
+    <attr name="menu_moreoverflow" format="reference" />
+    <attr name="prev_cat" format="reference" />
+    <attr name="next_cat" format="reference" />
+    <attr name="paragraphs_list" format="reference" />
+    <attr name="fullscreen_mode" format="reference" />
+    <attr name="fullscreen_return" format="reference" />
+    <attr name="set_bookmark" format="reference" />
+    <attr name="menu_bookmarks" format="reference" />
+  </declare-styleable>
+</resources>

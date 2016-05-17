@@ -1,0 +1,49 @@
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+    android:layout_weight="1"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right|fill_vertical|fill_horizontal|start"
+            android:text="@string/callme_details"
+            android:textSize="18sp"/>
+                
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/callme_contact"
+        android:textSize="20sp"
+        android:paddingTop="10sp"
+    android:gravity="right|fill_horizontal"
+    android:layout_gravity="right" />
+    
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="call"
+        android:text="@string/callBtn" />
+    <Button
+        android:id="@+id/emailBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="email"
+        android:text="@string/emailBtn" />    
+
+
+</LinearLayout>
+</ScrollView>

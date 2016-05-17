@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eladcohen.aravkuk"
+    android:installLocation="auto"
+    android:versionCode="3"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:name="com.eladcohen.aravkuk.MyApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Light" >
+        <activity
+            android:name="com.eladcohen.aravkuk.Splash"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.eladcohen.aravkuk.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".ShowBook" -->
+        <!-- android:label="@string/title_activity_show_book" > -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+        <!-- android:value="com.eladcohen.pnineyhalacha.MainActivity" /> -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.eladcohen.aravkuk.ShowBook"
+            android:label="@string/title_activity_show_book" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eladcohen.pnineyhalacha.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.eladcohen.aravkuk.CatListActivity"
+            android:label="@string/title_activity_cat_list" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eladcohen.pnineyhalacha.MainActivity" />
+        </activity>
+        <activity android:name="com.eladcohen.aravkuk.Preferences" />
+        <activity
+            android:name="com.eladcohen.aravkuk.About"
+            android:label="@string/title_activity_about" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eladcohen.pnineyhalacha.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.eladcohen.aravkuk.Callme"
+            android:label="@string/title_activity_callme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eladcohen.pnineyhalacha.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.eladcohen.aravkuk.FormActivity"
+            android:label="@string/title_activity_form" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eladcohen.pnineyhalacha.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.eladcohen.aravkuk.WhatsNewScreen"
+            android:label="@string/title_activity_whats_new_screen" >
+        </activity>
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SampleSearchActivity" />
+
+        <activity
+            android:name="com.eladcohen.aravkuk.SampleSearchActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.eladcohen.aravkuk.BookmarksActivity"
+            android:label="@string/title_activity_bookmarks" >
+        </activity>
+    </application>
+
+</manifest>

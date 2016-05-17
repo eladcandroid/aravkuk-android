@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.eladcohen.aravkuk="http://schemas.android.com/apk/res-auto">
+<!--     <item -->
+<!--         android:id="@+id/menu_about" -->
+<!--         android:icon="@android:drawable/ic_menu_info_details" -->
+<!--         android:orderInCategory="1" -->
+<!--         android:title="@string/menu_about"> -->
+<!--     </item> -->
+    <item android:id="@+id/menu_bookmarks"
+        android:title="@string/menu_bookmarks"
+        android:icon="?attr/menu_bookmarks"
+com.eladcohen.aravkuk:showAsAction="always"/>
+    <item android:id="@+id/menu_lastplace"
+        android:title="@string/lastplace"
+        android:icon="@drawable/ic_menu_goto"
+    com.eladcohen.aravkuk:showAsAction="always"/>
+    <item android:id="@+id/menu_search"
+          android:title="@string/menu_search"
+          android:icon="?attr/menu_search"
+    com.eladcohen.aravkuk:showAsAction="always">
+    </item>        
+<!-- <item -->
+<!--     android:id="@+id/root_menu" -->
+<!--     android:icon="?attr/menu_moreoverflow" -->
+<!--     android:showAsAction="always" -->
+<!--     android:title="@string/menu_more"> -->
+<!--     <menu>    -->
+     <item android:id="@+id/menu_lastplace_hide"
+        android:title="@string/lastplace"
+     com.eladcohen.aravkuk:showAsAction="never"/>
+     <item
+         android:id="@+id/menu_settings"
+         android:title="@string/menu_settings"
+     com.eladcohen.aravkuk:showAsAction="never" />
+     <item
+         android:id="@+id/menu_about"
+         android:title="@string/menu_about"
+     com.eladcohen.aravkuk:showAsAction="never"/>
+	  <item
+	      android:id="@+id/menu_feedback"
+	      android:title="@string/menu_feedback"
+      com.eladcohen.aravkuk:showAsAction="never" />
+     <item
+         android:id="@+id/menu_migzarnews"
+         android:title="@string/menu_migzarnews"
+     com.eladcohen.aravkuk:showAsAction="never"/>
+     <item
+         android:id="@+id/menu_callme"
+         android:title="@string/menu_callme"
+     com.eladcohen.aravkuk:showAsAction="never"/>
+<!--    </menu> -->
+<!-- </item>         -->
+<!--     <item -->
+<!--         android:id="@+id/menu_settings" -->
+<!--         android:icon="@android:drawable/ic_menu_preferences" -->
+<!--         android:orderInCategory="2" -->
+<!--         android:showAsAction="never" -->
+<!--         android:title="@string/menu_settings"/> -->
+    <!-- <item -->
+    <!-- android:id="@+id/menu_feedback" -->
+    <!-- android:icon="@android:drawable/ic_menu_send" -->
+    <!-- android:orderInCategory="3" -->
+    <!-- android:showAsAction="never" -->
+    <!-- android:title="@string/menu_feeback"/> -->
+
+<!--     <item -->
+<!--         android:id="@+id/menu_lastplace" -->
+<!--         android:icon="@android:drawable/star_big_off" -->
+<!--         android:orderInCategory="4" -->
+<!--         android:title="@string/menu_lastplace"> -->
+<!--     </item>     -->
+<!--     <item -->
+<!--         android:id="@+id/menu_exit" -->
+<!--         android:icon="@android:drawable/ic_menu_close_clear_cancel" -->
+<!--         android:orderInCategory="4" -->
+<!--         android:title="@string/menu_exit"> -->
+<!--     </item>     -->
+
+</menu>

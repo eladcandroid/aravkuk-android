@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="right" android:title="הגדרות">
+    
+<!--     <PreferenceCategory android:title="@string/pref_update_setting"> -->
+
+        <ListPreference
+            android:layout_gravity="right"
+            android:defaultValue="17"
+            android:key="prefTextSize"
+            android:entries="@array/textSizeCaptions"
+            android:summary="@string/pref_textsize_summary" 
+            android:entryValues="@array/textSizeValues"
+            android:title="@string/pref_textsize_title" />
+        <CheckBoxPreference
+            android:layout_gravity="right"
+            android:defaultValue="false"
+            android:key="prefCheckboxScreenLock"
+            android:summary="@string/pref_screenlock_summary" 
+            android:title="@string/pref_screenlock_title" />      
+        <CheckBoxPreference
+            android:layout_gravity="right"
+            android:defaultValue="false"
+            android:key="prefCheckboxBlackScreen"            
+            android:summary="@string/pref_blackscreen_summary" 
+            android:title="@string/pref_blackscreen_title" />     
+                 
+<!--             android:entryValues="@array/blackScreenValues"         -->
+<!-- android:entries="@array/blackScreenCaptions"      -->
+<!--     </PreferenceCategory> -->
+
+</PreferenceScreen>

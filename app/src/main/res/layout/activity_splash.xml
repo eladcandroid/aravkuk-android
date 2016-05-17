@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bgpattern" >
+
+    <!-- <ImageView id="@+id/splashscreen" android:layout_width="wrap_content" -->
+    <!-- android:layout_height="fill_parent" android:src="@drawable/splash" -->
+    <!-- android:layout_gravity="center"/> -->
+
+    <TextView
+        android:id="@+id/splashscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/splash_title"
+        android:textSize="50sp" />
+	<ImageView android:id="@+id/aravImg"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/arav"
+        	android:contentDescription="הרב קוק זצל"
+         />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/splash_subtitle"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/splash_content"
+        android:textSize="15sp" />
+
+</LinearLayout>

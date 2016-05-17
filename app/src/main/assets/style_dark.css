@@ -1,0 +1,14 @@
+* {
+	background: black;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	color: white;
+	direction: rtl;
+	text-align:right;
+}
+.entry-content {
+	line-height: 1.6em;
+}
+

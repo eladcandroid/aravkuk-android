@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">כתבי הראי\"ה זצ\"ל</string>
+    <string name="hello_world">שלום עולם!</string>
+    <string name="menu_settings">הגדרות</string>
+    <string name="menu_feedback">שלח משוב</string>
+    <string name="menu_callme">רוצה אפליקציה?</string>
+    <string name="menu_migzarnews">חדשות המגזר!</string>    
+    <string name="menu_lastplace">שחזר מיקום אחרון</string>
+    <string name="menu_search">חיפוש</string>
+    <string name="menu_about">אודות</string>
+    <string name="menu_more">עוד</string>
+    <string name="menu_exit">יציאה</string>
+    <string name="menu_chapters">סעיפים</string>
+    <string name="menu_bookmarks">סימניות</string>
+    <string name="title_activity_main">כתבי הראי\"ה זצ\"ל</string>
+    <string name="item1_text">פניני הלכה ברכות</string>
+    <string name="title_activity_show_book">כתבי הראי\"ה זצ\"ל</string>
+    <string name="title_activity_cat_list">בחר ספר</string>
+    <string name="title_activity_preferences">הגדרות</string>
+    <string name="title_activity_bookmarks">סימניות</string>
+    <!-- <string name="pref_send_report">Send crash reports</string> -->
+    <!-- <string name="pref_send_report_summary">Helps to fix bugs</string> -->
+    <string name="pref_textsize_title">קבע גודל פונט</string>
+    <string name="pref_textsize_summary">קביעת גודל הפונט הרצוי להצגת הכיתוב בספר</string>
+    <string name="pref_screenlock_title">ללא נעילת מסך</string>
+    <string name="pref_screenlock_summary">ביטול נעילת המסך בזמן קריאת הספר</string>
+    <string name="pref_blackscreen_title">תצוגת מסך כהה</string>
+    <string name="pref_blackscreen_summary">מומלץ עבור חיסכון בסוללה</string>
+    <!-- <string name="pref_user_name">Set username</string> -->
+    <!-- <string name="pref_user_name_summary">Set your username</string> -->
+    <!-- <string name="pref_user_profile">User Profile</string> -->
+    <!-- <string name="pref_update_setting">Update Settings</string> -->
+    <string name="title_activity_splash">כתבי הראי\"ה זצ\"ל</string>
+    <string name="splash_title">כתבי הראי\"ה זצ\"ל</string>
+    <string name="splash_subtitle">לעילוי נשמת גבור ישראל, ברק רפאל דגורקר הי"\"ד, שנהרג על קידוש ה' במבצע 'צוק איתן'</string>
+    <string name="splash_content">        \n\n\n
+        האפליקציה נבנתה ע\"י: אלעד כהן\n
+        © כל הזכויות על הספרים שמורות למוסד הרב קוק</string>
+    <string name="title_activity_about">אודות</string>
+    <string name="about_title">כתבי הראי\"ה זצ\"ל</string>
+    <string name="about_zivug">לזיווג הגון ליהודה בן אסתר</string>
+    <string name="about_content">\nהאפליקציה נבנתה ע\"י: אלעד כהן\n
+        © כל הזכויות על הספרים שמורות למוסד הרב קוק\n
+        אשמח לשמוע מכם הערות והצעות ייעול שונות דרך \"שלח משוב\" מהתפריט הראשי</string>
+    <string name="title_activity_form">שלח משוב</string>
+    <string name="feedbacktitle">הכנס את פרטי המשוב</string>
+    <string name="feedbackname">שם</string>
+    <string name="feedbackemail">אימייל</string>
+    <string name="feedbackbody">פרטים...</string>
+    <string name="feedbackresponse">האם אתה מעוניין בתגובה באימייל?</string>
+    <string name="feedbackbutton">שלח משוב</string>
+    <string name="feedbacktype">בחר את סוג הפנייה</string>
+    <string name="feedbacktype1">דיווח באג</string>
+    <string name="feedbacktype2">הצעת ייעול</string>
+    <string name="feedbacktype3">שאלה</string>
+    <string name="feedbacktype4">אחר</string>
+    <!-- <string name="feedbackmessagebody_format">סוג הפנייה: %1$s\n\n %2$s\n\n %3$s (%4$s) - %5$s</string> -->
+    <string name="feedbackmessagebody_format">סוג הפנייה: %1$s\n\n %2$s\n\n %3$s (%4$s)</string>
+    <string name="feedbackmessagebody_responseyes">מבקש תגובה</string>
+    <string name="feedbackmessagebody_responseno">לא דורש תגובה</string>
+    <string name="feedbackmessagesubject_format">משוב לאפליקציה (%1$s)</string>
+    <string name="next_chapter">הפרק הבא</string>
+    <string name="prev_chapter">הפרק הקודם</string>
+    <string name="paragraphs">סעיפים</string>
+    <string name="fullscreen_mode">מסך מלא</string>
+    <string name="set_bookmark">הוסף סימניה</string>
+    <string name="lastplace">שחזר מיקום אחרון</string>
+    <string name="title_activity_whats_new_screen">WhatsNewScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">הקלד מילים לחיפוש&#8230;</string>
+    <string name="search_result_label">תוצאות חיפוש עבור: </string>
+    <string name="search_result_label_none">לא נמצאו תוצאות עבור: </string>
+    <string name="title_activity_callme">פיתוח אפליקציות לספרים תורניים</string>
+    <string name="callme_details">	מכון תורני? יש לך ספר ואתה רוצה אפליקציה כזו בעזרתה תוכל להגיע לאלפי אנשים? \n
+	נוכל לפתח עבורך משהו מתאים במחיר נוח.</string>
+    <string name="callme_contact">	לפרטים נוספים:\n</string>
+    <string name="callBtn">התקשר</string>
+    <string name="emailBtn">שלח אימייל</string>
+    <string name="whatsnew"></string>        
+</resources>
